@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2ACDE7F1-980B-4C49-9344-9364BB173A3B</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Product" transform="translate(-662.000000, -3576.000000)">
+            <rect fill="none" x="0" y="0" width="1440" height="5577"></rect>
+            <g id="Background" transform="translate(0.000000, 3395.000000)">
+                <rect id="Atoms-/-Colors-/-Black" fill="none" x="0" y="0" width="1440" height="603"></rect>
+                <g id="Group-13" transform="translate(170.000000, 180.197044)">
+                    <g id="Market-Access" transform="translate(390.000000, 0.000000)">
+                        <g id="Oval" transform="translate(102.000000, 0.000000)">
+                            <circle fill="#3DA89A" cx="58" cy="58.4285714" r="58"></circle>
+                            <g id="market-access" transform="translate(25.000000, 25.428571)">
+                                <rect id="Rectangle-Copy-6" x="0" y="0" width="66" height="66"></rect>
+                                <g id="Group-19-Copy" transform="translate(1.941176, 3.882353)" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2.37037037">
+                                    <path d="M18.4052288,32.2091503 L18.4052288,26.0031373 C18.4052288,24.8505098 17.828915,23.7726536 16.8683922,23.1319216 L12.3648627,20.1295686 C11.9553464,19.8569412 11.9553464,19.2541699 12.3648627,18.9815425 L16.8683922,15.9791895 C17.828915,15.3384575 18.4052288,14.2606013 18.4052288,13.1079739 L18.4052288,6.90196078" id="Stroke-1" stroke-linecap="round"></path>
+                                    <line x1="0" y1="32.2091503" x2="20.7058824" y2="32.2091503" id="Stroke-3" stroke-linecap="round"></line>
+                                    <path d="M2.30065359,6.90196078 L2.30065359,13.1079739 C2.30065359,14.2606013 2.87696732,15.3384575 3.8374902,15.9791895 L8.34101961,18.9815425 C8.75053595,19.2541699 8.75053595,19.8569412 8.34101961,20.1295686 L3.8374902,23.1319216 C2.87696732,23.7726536 2.30065359,24.8505098 2.30065359,26.0031373 L2.30065359,32.2091503" id="Stroke-5" stroke-linecap="round"></path>
+                                    <line x1="20.7058824" y1="6.90196078" x2="0" y2="6.90196078" id="Stroke-7" stroke-linecap="round"></line>
+                                    <polyline id="Stroke-9" stroke-linecap="round" points="2.30065359 28.7581699 10.3529412 25.3071895 18.4052288 28.7581699"></polyline>
+                                    <path d="M62.1176471,25.3071895 C62.1176471,11.330719 50.7869281,0 36.8104575,0 L36.8104575,25.3071895 L62.1176471,25.3071895 Z" id="Stroke-11"></path>
+                                    <path d="M12.013783,50.1043242 C16.593234,54.6826248 22.9200314,57.5158797 29.9082667,57.5158797 L29.9082667,32.2086902 L12.013783,50.1043242 Z" id="Stroke-13"></path>
+                                    <path d="M29.9084967,32.2091503 L29.9084967,57.5163399 C43.8849673,57.5163399 55.2156863,46.1856209 55.2156863,32.2091503 L29.9084967,32.2091503 Z" id="Stroke-15"></path>
+                                    <path d="M5.02646797,36.8104575 C5.9720366,41.9535686 8.46479477,46.5548758 12.0135529,50.1047843 L29.9080366,32.2091503 L29.9080366,6.90196078 C28.3366902,6.90196078 26.7998536,7.05265359 25.3067294,7.32643137" id="Stroke-17" stroke-linecap="round"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

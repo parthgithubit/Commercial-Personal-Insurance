@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EBA7EB51-7BD0-49AE-B5B9-B48B3D561814</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Product" transform="translate(-272.000000, -3576.000000)">
+            <rect fill="none" x="0" y="0" width="1440" height="5577"></rect>
+            <g id="Background" transform="translate(0.000000, 3395.000000)">
+                <rect id="Atoms-/-Colors-/-Black" fill="none" x="0" y="0" width="1440" height="603"></rect>
+                <g id="Group-13" transform="translate(170.000000, 180.197044)">
+                    <g id="icon-bookbag" transform="translate(102.000000, 0.000000)">
+                        <circle id="Oval" fill="#3DA89A" cx="58" cy="58.4285714" r="58"></circle>
+                        <g id="Business-easy" transform="translate(25.000000, 25.428571)">
+                            <rect id="Rectangle" x="0" y="0" width="66" height="66"></rect>
+                            <g id="Group-18-Copy-2" transform="translate(1.941176, 4.852941)" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2.54">
+                                <path d="M19.7223529,9.86117647 L19.7223529,3.69794118 C19.7223529,1.655445 21.3777979,0 23.4202941,0 L38.2120588,0 C40.254555,0 41.91,1.655445 41.91,3.69794118 L41.91,9.86117647" id="Stroke-1"></path>
+                                <path d="M27.1182353,56.7017647 L7.39588235,56.7017647 C4.672965,56.7017647 2.46529412,54.4940938 2.46529412,51.7711765 L2.46529412,32.6195391" id="Stroke-3" stroke-linecap="round"></path>
+                                <path d="M61.6323529,22.1876471 L61.6323529,12.3264706 C61.6323529,10.9656282 60.5279012,9.86117647 59.1670588,9.86117647 L2.46529412,9.86117647 C1.10445176,9.86117647 0,10.9656282 0,12.3264706 L0,27.1182353 C0,31.201995 3.31212265,34.5141176 7.39588235,34.5141176 L24.6529412,34.5141176" id="Stroke-5" stroke-linecap="round"></path>
+                                <path d="M30.8161765,41.91 L30.8161765,41.91 C27.4116053,41.91 24.6529412,39.1501032 24.6529412,35.7467647 L24.6529412,32.0488235 C24.6529412,30.6879812 25.7573929,29.5835294 27.1182353,29.5835294 L34.5141176,29.5835294 C35.87496,29.5835294 36.9794118,30.6879812 36.9794118,32.0488235 L36.9794118,35.7467647 C36.9794118,39.1501032 34.2207476,41.91 30.8161765,41.91 Z" id="Stroke-7"></path>
+                                <line x1="30.8161765" y1="34.5141176" x2="30.8161765" y2="36.9794118" id="Stroke-9" stroke-linecap="round"></line>
+                                <polyline id="Stroke-11" stroke-linecap="round" points="24.6529412 25.8855882 24.6529412 9.86117647 36.9794118 9.86117647 36.9794118 25.8855882"></polyline>
+                                <polygon id="Stroke-13" stroke-linecap="round" points="32.0488235 56.7017647 39.4447059 56.7017647 39.4447059 49.3058824 32.0488235 49.3058824"></polygon>
+                                <polygon id="Stroke-15" stroke-linecap="round" points="39.4447059 56.7017647 46.8405882 56.7017647 46.8405882 41.91 39.4447059 41.91"></polygon>
+                                <polygon id="Stroke-16" stroke-linecap="round" points="54.2364706 56.7017647 61.6323529 56.7017647 61.6323529 27.1182353 54.2364706 27.1182353"></polygon>
+                                <polygon id="Stroke-17" stroke-linecap="round" points="46.8405882 56.7017647 54.2364706 56.7017647 54.2364706 34.5141176 46.8405882 34.5141176"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
