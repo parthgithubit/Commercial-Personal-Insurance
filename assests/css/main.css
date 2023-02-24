@@ -9,6 +9,21 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+body.nav-open {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-open .site-header, .nav-open .section--hero {
+  background-color: unset;
+}
+
 hr {
   margin: 0;
 }
@@ -233,11 +248,11 @@ a:hover {
   padding: 10px 15px;
 }
 
-.site-header .header-wrap .nav-bar .top-nav .btn--call a i, .section--contact .btn-grp .btn-secondary i {
+.fa.fa-phone {
   margin-right: 4px;
 }
 
-.site-header .header-wrap .nav-bar .top-nav .btn--call a:hover {
+.site-header .header-wrap .nav-bar .top-nav .btn--call a:hover, .site-header .rightside-menu .site-bar-btn .btn-secondary:hover {
   background-color: #f5f5f5;
 }
 
@@ -476,7 +491,7 @@ a:hover {
   color: #716E74;
   overflow: auto;
   z-index: 9999;
-  transition: 0.5s all;
+  transition: 0.4s all;
 }
 
 .rightside-menu.nav-open {
@@ -548,24 +563,21 @@ a:hover {
   display: none;
 }
 
-.site-header .site-overlay {
-  display: none;
-}
-
-.site-overlay.nav-open {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 9998;
-  background-color: rgba(0, 0, 0, 0.5);
-  animation: fade 500ms;
+.site-header .rightside-menu .site-bar-btn .btn-primary {
+  padding: 15px 16px;
+  border-radius: 6px;
+  height: 40px;
+  min-width: 160px;
+  font-size: 20px;
+  line-height: 0.5;
+  margin-right: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*............section--hero...........*/
-.section--hero {
+.section--hero, .hero__content-bg-cover {
   background: url(/assests/images/hero-homepage.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -636,6 +648,13 @@ a:hover {
 .btn-secondary:hover {
   background-color: rgba(255, 255, 255, 0.7);
   color: #035954;
+}
+
+.hero__content-bg-cover {
+  display: none;
+  min-height: 218px;
+  width: 100%;
+  height: 100%;
 }
 
 /*............section--services...........*/
@@ -835,6 +854,7 @@ a:hover {
 
 .section--testimonial .testimonial__slider .slick-dots li.slick-active button:before {
   opacity: 1;
+  color: unset;
 }
 
 .slick-dots li button:hover:before, .slick-dots li button:focus:before {
@@ -1256,7 +1276,7 @@ a:hover {
     min-height: unset;
   }
   .section--hero .hero__content .hero__card {
-    padding: 60px 25px;
+    padding: 50px 25px;
     text-align: center;
   }
   .section--hero .container {
@@ -1314,6 +1334,13 @@ a:hover {
   .section--testimonial .section__title h1 {
     font-weight: 600;
   }
+  .hero__content-bg-cover {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .section--hero {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 575px) {
   .section--info .info__image img, .learn-more {
@@ -1338,6 +1365,10 @@ a:hover {
   }
   .section--news .news__card .news-image, .section--news .card__blog .news-image {
     min-height: 225px;
+  }
+  .site-header .rightside-menu .site-bar-btn .btn-primary, .site-header .rightside-menu .site-bar-btn .btn-secondary {
+    width: 93%;
+    margin: 0 0 10px 0;
   }
 }
 @media (max-width: 639px) {

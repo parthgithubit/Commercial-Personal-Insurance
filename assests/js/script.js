@@ -35,7 +35,7 @@ $(document).ready(function(){
   $('.menu-toggle, .close-btn, .site-overlay').click(() => {
     $('.rightside-menu').toggleClass('nav-open');
     $('.close-btn i').toggleClass('active');
-    $('.site-overlay').toggleClass('nav-open');
+    $('body').toggleClass('nav-open');
   });
 });
 
