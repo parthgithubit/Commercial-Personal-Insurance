@@ -1,0 +1,122 @@
+.section--since{
+    .since__info{
+        max-width: 900px;
+        margin: 0 auto;
+        h1{
+            line-height: 1;
+            margin-bottom: 50px;
+        }
+        p{
+            text-align: justify;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.section--history{
+    .container{
+        max-width: 900px
+    }
+    .history__text{
+        h1{
+            font-weight: 400;
+            line-height: 1.28;
+        }
+        p{
+            text-align: justify;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.about-services{
+    background: #EDF4F4;
+    padding: 50px 0;
+    .services__cards{
+        .services-block p{
+            text-align: justify !important;  
+        }
+    }
+}
+
+.about-testimonial{
+    background: #EDF4F4;
+    padding: 50px 0;
+    margin-bottom: 0;
+    .testimonial__slider{
+        .card_slider{
+            box-shadow:none !important;
+        }
+    }
+}
+
+.section--associations{
+    .associations_text h1{
+        line-height: 1;
+        margin-bottom: 50px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+    }
+    .association_logo img{
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width:1200px) {
+    .section--since .since__info{
+        max-width: 770px;
+    }
+    .section--history .container{
+        max-width: 830px;
+    }
+    .about-services .services-block{
+        max-width: 270px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:991px){
+    .section--since .since__info h1, .section--history .history__text h1{
+        font-size: 30px;
+    }
+    .section--since .since__info p{
+        font-size: 18px;
+    }
+    .section--history .container{
+        max-width: 720px;
+    }
+    .section--associations .associations_text h1{
+        font-size: 30px;
+    }
+    .section--associations .association_logo img{
+        max-width: 150px;
+        height: auto;
+    }
+}
+
+@media (max-width:767px){
+    .section--since .since__info h1{
+        margin-bottom: 30px;
+    }
+    .section--history .container{
+        max-width: 530px;
+    }
+    .section--history .history__text h1{
+        font-weight: 700;
+    }
+    .about-services, .about-testimonial{
+        padding: 30px 0;
+    }
+    .about-services .services-block{
+        max-width: 450px;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width:440px){
+    .section--associations .association_logo img{
+        max-width: 115px;
+    }
+}

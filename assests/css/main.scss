@@ -42,7 +42,7 @@ img {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 h1,
@@ -65,7 +65,7 @@ h6,
 }
 
 p {
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 0;
     color: #444147;
 }
@@ -128,6 +128,7 @@ a:hover {
 .align-center {
     align-items: center;
 }
+
 .section__title h1{
     margin-bottom: 50px;
     line-height: 1;
@@ -141,7 +142,7 @@ a:hover {
 }
 
 .container {
-    max-width: 1035px;
+    max-width: 1040px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -163,7 +164,7 @@ a:hover {
 
 .site-header .header-wrap .site-logo img {
     height: 82px;
-    max-width: 215px;
+    max-width: 220px;
 }
 
 .site-header .header-wrap .nav-bar {
@@ -191,7 +192,7 @@ a:hover {
 }
 
 .site-header .header-wrap .nav-bar .top-nav ul {
-    min-width: 640px;
+    min-width: 635px;
 }
 
 .site-header .header-wrap .nav-bar .top-nav ul li {
@@ -629,19 +630,20 @@ a:hover {
 }
 
 /*............section--services...........*/
-.section--services .services__block {
+.section--services .services-block {
     max-width: 270px;
     margin: 0 auto 24px auto;
 }
 
-.section--services .services__block h2 {
+.section--services .services-block h2 {
     font-size: 30px;
     line-height: 1.3;
     max-width: 290px;
     margin: 28px auto 20px;
 }
 
-.section--services .services__block p {
+.section--services .services-block p {
+    font-size: 18px;
     padding-bottom: 32px;
     color: #716E74;
     line-height: 1.6;
@@ -674,13 +676,16 @@ a:hover {
 }
 
 .section--info .info__text .checklist li::before {
-    content: "";
+    content: "\002714";
     position: absolute;
     left: 0;
-    background: url(/assests/images/check-circle.png);
-    background-size: cover;
+    background-color: #035954;
+    border-radius: 50%;
+    color: #ffff;
     height: 28px;
     width: 28px;
+    padding-left: 6px;
+    font-size: 19px;
 }
 
 .section--info .info__text .checklist li a{
@@ -1080,7 +1085,7 @@ a:hover {
     .section--hero{
         background-size: unset;
     }
-    .section--services .services__block{
+    .section--services .services-block{
         max-width: unset;
     }
     .section--info .info__image img{
@@ -1134,8 +1139,8 @@ a:hover {
     .section--hero .col-md-7{
         width: 73.333333%;
     }
-    .section--services .services__block h2{
-        font-size: 20px;
+    .section--services .services-block h2{
+        font-size: 19px;
     }
     .section--info .info__text h1, .section__title h1, .section--benifits .benifits__info h1, .section--contact .contact__text h1{
         font-size: 30px;
@@ -1314,4 +1319,15 @@ a:hover {
     }
 }
 
-//   https://github.com/parthgithubit
+
+@import "about-FCA-blog";
+
+@import "section-video.scss";
+
+@import "inner-hero.scss";
+
+@import "section-mission";
+
+@import "section-contribution";
+
+@import "section-payment";

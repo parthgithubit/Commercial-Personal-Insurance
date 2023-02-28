@@ -1,0 +1,111 @@
+.section--payments{
+    .hero__content{
+        &::before{
+            height: 364px;
+        }
+        .hero__card{
+            padding: 93px 50px;
+            h1{
+                font-size: 63px;
+                margin-bottom: 30px;
+            }
+            .btn-primary{
+                font-size: 17px;
+                height: 45px;
+                line-height: 1.5;
+                border-radius: 6px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.section--thank-you{
+    .thank-you_text{
+        h2{
+            line-height: 1.25;
+            font-size: 40px;
+            max-width: 920px;
+            margin: 0 auto 8px auto;
+        }
+    }
+}
+
+.section-cards{
+    display: -webkit-box;
+    [class*=col-]{
+        margin-bottom: 24px;
+    }
+    .payment__option{
+        padding: 28px 30px 32px 30px;
+        width: 100%;
+        height: 100%;
+        box-shadow: 10px 0 30px 0 rgb(0 0 0 / 15%);
+        border-radius: 4px;
+        img{
+            margin-bottom: 32px;
+        }
+        p{
+            text-align: justify;
+            font-size: 18px;
+            color: #716E74;
+            line-height: 1.6;
+        }
+        a{
+            display: inline-flex;
+            font-size: 19px;
+            font-weight: 500;
+            color: #30827B;
+            text-decoration: underline;
+            &:hover{
+                text-decoration: none;
+                color: #035954;
+            }
+        }
+    }
+}
+
+.section-cards .row:nth-child(2) .payment__option h3{
+    margin-bottom: 20px;
+}
+
+@media (max-width:1200px){
+    .section--payments .hero__content::before{
+        height: 100%;
+    }
+    .section--payments .hero__content .hero__card{
+        padding: 75px 50px;
+    }
+    .section--thank-you .thank-you_text h2{
+        max-width: 770px;
+    }
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width:991px){
+    .section--payments .hero__content .hero__card h1{
+        font-size: 34px;
+    }
+    .section--payments .hero__content .hero__card{
+        padding: 127px 50px;
+    }
+    .section--thank-you .thank-you_text h2{
+        font-size: 26px;
+    }
+    .section-cards .payment__option h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:767px){
+    .section--payments .hero__content .hero__card{
+        padding: 50px 46px;
+    }
+    .section-cards .payment__option p,
+    .section-cards .payment__option{
+        text-align: center;
+    }
+}

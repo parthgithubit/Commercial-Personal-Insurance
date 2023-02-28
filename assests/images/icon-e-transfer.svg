@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EC9A6B64-04CD-431C-BB09-FF06A670A38F</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Payments" transform="translate(-190.000000, -982.000000)">
+            <g id="Group-4-Copy-3" transform="translate(150.000000, 942.000000)">
+                <g id="e-transfer-icon" transform="translate(40.000000, 40.000000)">
+                    <circle id="Oval-Copy-3" fill="#3DA89A" cx="58" cy="58" r="58"></circle>
+                    <g id="e-transfer" transform="translate(26.000000, 25.000000)" stroke="#FFFFFF" stroke-width="2.844">
+                        <path d="M38.394,52.614 L38.394,61.146 C38.394,63.502254 36.484254,65.412 34.128,65.412 L4.266,65.412 C1.909746,65.412 -6.71462885e-14,63.502254 -6.71462885e-14,61.146 L-6.71462885e-14,4.266 C-6.71462885e-14,1.909746 1.909746,1.27897692e-13 4.266,1.27897692e-13 L34.128,1.27897692e-13 C36.484254,1.27897692e-13 38.394,1.909746 38.394,4.266 L38.394,25.596" id="Stroke-13"></path>
+                        <line x1="-6.71462885e-14" y1="56.88" x2="38.394" y2="56.88" id="Stroke-15"></line>
+                        <line x1="-6.71462885e-14" y1="7.11" x2="38.394" y2="7.11" id="Stroke-17"></line>
+                        <line x1="17.064" y1="61.146" x2="21.33" y2="61.146" id="Stroke-19"></line>
+                        <path d="M19.908,21.33 L19.908,44.063514 C19.908,46.429722 21.77082,48.348 24.068772,48.348 L59.829228,48.348 C62.12718,48.348 63.99,46.429722 63.99,44.063514 L63.99,18.504486 C63.99,16.138278 62.12718,14.22 59.829228,14.22 L42.66,14.22" id="Stroke-21"></path>
+                        <line x1="63.99" y1="41.238" x2="19.908" y2="41.238" id="Stroke-23"></line>
+                        <line x1="63.99" y1="34.128" x2="19.908" y2="34.128" id="Stroke-25"></line>
+                        <polyline id="Stroke-27" points="44.082 19.908 38.394 25.596 32.706 19.908"></polyline>
+                        <polyline id="Stroke-29" points="14.22 27.018 19.908 21.33 25.596 27.018"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -45,7 +45,7 @@ img {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 h1,
@@ -68,7 +68,7 @@ h6,
 }
 
 p {
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom: 0;
   color: #444147;
 }
@@ -145,7 +145,7 @@ a:hover {
 }
 
 .container {
-  max-width: 1035px;
+  max-width: 1040px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -167,7 +167,7 @@ a:hover {
 
 .site-header .header-wrap .site-logo img {
   height: 82px;
-  max-width: 215px;
+  max-width: 220px;
 }
 
 .site-header .header-wrap .nav-bar {
@@ -199,7 +199,7 @@ a:hover {
 }
 
 .site-header .header-wrap .nav-bar .top-nav ul {
-  min-width: 640px;
+  min-width: 635px;
 }
 
 .site-header .header-wrap .nav-bar .top-nav ul li {
@@ -658,19 +658,20 @@ a:hover {
 }
 
 /*............section--services...........*/
-.section--services .services__block {
+.section--services .services-block {
   max-width: 270px;
   margin: 0 auto 24px auto;
 }
 
-.section--services .services__block h2 {
+.section--services .services-block h2 {
   font-size: 30px;
   line-height: 1.3;
   max-width: 290px;
   margin: 28px auto 20px;
 }
 
-.section--services .services__block p {
+.section--services .services-block p {
+  font-size: 18px;
   padding-bottom: 32px;
   color: #716E74;
   line-height: 1.6;
@@ -703,13 +704,16 @@ a:hover {
 }
 
 .section--info .info__text .checklist li::before {
-  content: "";
+  content: "✔";
   position: absolute;
   left: 0;
-  background: url(/assests/images/check-circle.png);
-  background-size: cover;
+  background-color: #035954;
+  border-radius: 50%;
+  color: white;
   height: 28px;
   width: 28px;
+  padding-left: 6px;
+  font-size: 19px;
 }
 
 .section--info .info__text .checklist li a {
@@ -1163,7 +1167,7 @@ a:hover {
   .section--hero {
     background-size: unset;
   }
-  .section--services .services__block {
+  .section--services .services-block {
     max-width: unset;
   }
   .section--info .info__image img {
@@ -1217,8 +1221,8 @@ a:hover {
   .section--hero .col-md-7 {
     width: 73.333333%;
   }
-  .section--services .services__block h2 {
-    font-size: 20px;
+  .section--services .services-block h2 {
+    font-size: 19px;
   }
   .section--info .info__text h1, .section__title h1, .section--benifits .benifits__info h1, .section--contact .contact__text h1 {
     font-size: 30px;
@@ -1394,5 +1398,490 @@ a:hover {
   }
   .btn-primary {
     padding: 10px;
+  }
+}
+.section--since .since__info {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.section--since .since__info h1 {
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.section--since .since__info p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.section--history .container {
+  max-width: 900px;
+}
+.section--history .history__text h1 {
+  font-weight: 400;
+  line-height: 1.28;
+}
+.section--history .history__text p {
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+.about-services {
+  background: #EDF4F4;
+  padding: 50px 0;
+}
+.about-services .services__cards .services-block p {
+  text-align: justify !important;
+}
+
+.about-testimonial {
+  background: #EDF4F4;
+  padding: 50px 0;
+  margin-bottom: 0;
+}
+.about-testimonial .testimonial__slider .card_slider {
+  box-shadow: none !important;
+}
+
+.section--associations .associations_text h1 {
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.section--associations .row {
+  display: flex;
+  align-items: center;
+}
+.section--associations .association_logo img {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1200px) {
+  .section--since .since__info {
+    max-width: 770px;
+  }
+  .section--history .container {
+    max-width: 830px;
+  }
+  .about-services .services-block {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  .section--since .since__info h1, .section--history .history__text h1 {
+    font-size: 30px;
+  }
+  .section--since .since__info p {
+    font-size: 18px;
+  }
+  .section--history .container {
+    max-width: 720px;
+  }
+  .section--associations .associations_text h1 {
+    font-size: 30px;
+  }
+  .section--associations .association_logo img {
+    max-width: 150px;
+    height: auto;
+  }
+}
+@media (max-width: 767px) {
+  .section--since .since__info h1 {
+    margin-bottom: 30px;
+  }
+  .section--history .container {
+    max-width: 530px;
+  }
+  .section--history .history__text h1 {
+    font-weight: 700;
+  }
+  .about-services, .about-testimonial {
+    padding: 30px 0;
+  }
+  .about-services .services-block {
+    max-width: 450px;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 440px) {
+  .section--associations .association_logo img {
+    max-width: 115px;
+  }
+}
+.section--video .watching_video iframe {
+  min-height: 276px;
+  width: 490px;
+}
+.section--video .video__text h1 {
+  font-weight: 400;
+  line-height: 1.28;
+}
+.section--video .video__text p {
+  text-align: justify;
+  margin-right: -20px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .section--video .watching_video iframe {
+    min-height: 255px;
+    width: 448px;
+  }
+}
+@media (max-width: 992px) {
+  .section--video .watching_video iframe {
+    min-height: 183px;
+    width: 326px;
+  }
+  .section--video .video__text h1 {
+    font-size: 26px;
+  }
+  .section--video .video__text p {
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .section--video .watching_video iframe {
+    min-height: 137px;
+    width: 238px;
+  }
+}
+@media (max-width: 575px) {
+  .section--video .watching_video iframe {
+    min-height: 220px;
+    width: -webkit-fill-available;
+  }
+  .section--video .video__text h1 {
+    font-weight: 700;
+  }
+}
+@media (max-width: 425px) {
+  .section--video .watching_video iframe {
+    min-height: 192px;
+  }
+}
+@media (max-width: 375px) {
+  .section--video .watching_video iframe {
+    min-height: 160px;
+  }
+}
+.section--inner-hero, .hero__content_bg {
+  background: url(/assests/images/hero-about.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 364px;
+  position: relative;
+}
+.section--inner-hero .hero__content, .hero__content_bg .hero__content {
+  position: relative;
+  margin-right: -10px;
+}
+.section--inner-hero .hero__content::before, .hero__content_bg .hero__content::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(3, 89, 84, 0.9);
+  left: 0;
+}
+.section--inner-hero .hero__content .hero__card, .hero__content_bg .hero__content .hero__card {
+  position: relative;
+  z-index: 1;
+  padding: 141px 50px;
+}
+.section--inner-hero .hero__content .hero__card h1, .hero__content_bg .hero__content .hero__card h1 {
+  font-size: 65px;
+  color: #fff;
+  line-height: 1.14;
+}
+
+.hero__content_bg {
+  display: none;
+}
+
+.section--mission {
+  background: url(/assests/images/mahel.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section--payments, .hero__content_bg {
+  background: url(/assests/images/hero-payments.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1200px) {
+  .section--inner-hero {
+    background-size: unset;
+    height: auto;
+  }
+  .section--inner-hero .hero__content .hero__card {
+    padding: 120px 50px;
+  }
+}
+@media (max-width: 991px) {
+  .section--inner-hero .hero__content .hero__card h1 {
+    font-size: 34px;
+  }
+  .section--inner-hero .hero__content .hero__card {
+    padding: 158px 50px;
+  }
+  .section--mission .container .mission__text h1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 767px) {
+  .section--inner-hero {
+    background: none;
+    background-color: #035954;
+    margin-bottom: 0;
+  }
+  .section--inner-hero .container, .section--inner-hero [class*=col-] {
+    max-width: unset;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .section--inner-hero .hero__content .hero__card {
+    padding: 60px 50px;
+    text-align: center;
+  }
+  .hero__content_bg {
+    display: block;
+    height: 210px;
+    margin-bottom: 30px;
+  }
+}
+.section--mission {
+  min-height: 770px;
+  display: inline-flex;
+  align-items: flex-end;
+  position: relative;
+}
+.section--mission .mission__text {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.section--mission .mission__text h1, .section--mission .mission__text p {
+  line-height: 1.28;
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+}
+.section--mission .mission__text p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.section--mission .mission__text::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(3, 89, 84, 0.9);
+  left: 0;
+  bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .section--mission {
+    min-height: 660px;
+  }
+  .section--mission .mission__text::before {
+    height: 63%;
+  }
+  .section--mission .container .mission__text h1 {
+    font-weight: 700;
+  }
+}
+@media (max-width: 440px) {
+  .section--mission .mission__text::before {
+    height: 67%;
+  }
+}
+@media (max-width: 379px) {
+  .section--mission .mission__text::before {
+    height: 76%;
+  }
+}
+@media (max-width: 333px) {
+  .section--mission .mission__text::before {
+    height: 81%;
+  }
+}
+.section--contribution {
+  background-color: #035954;
+  padding: 50px 0;
+}
+.section--contribution .row {
+  display: flex;
+  align-items: center;
+}
+.section--contribution .row .contribution_text h3,
+.section--contribution .row .contribution__block .prg-count,
+.section--contribution .row .contribution__block p {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 28px;
+}
+.section--contribution .row .contribution__block .prg-count {
+  line-height: 1.28;
+  font-size: 50px;
+}
+.section--contribution .row .contribution__block .prg-count::after {
+  content: "+";
+}
+.section--contribution .row .contribution__block p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.section--contribution .row .col-md-3 {
+  width: 22.2%;
+  height: auto;
+  position: relative;
+}
+.section--contribution .row .col-md-3:not(:first-child):not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 991px) {
+  .section--contribution .row .contribution__block .prg-count {
+    font-size: 30px;
+  }
+  .section--contribution .row .contribution_text h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .section--contribution {
+    padding: 30px 0;
+  }
+}
+@media (max-width: 575px) {
+  .section--contribution .row .contribution_text h3 {
+    text-align: center;
+  }
+  .section--contribution .row .col-md-3 {
+    width: 100%;
+  }
+  .section--contribution .row .col-md-3:not(:first-child):not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .section--contribution .row .col-md-3:not(:first-child):not(:last-child)::after {
+    width: 100px;
+    bottom: 0;
+    top: auto;
+    height: 1px;
+    right: calc(50% - 50px);
+  }
+}
+.section--payments .hero__content::before {
+  height: 364px;
+}
+.section--payments .hero__content .hero__card {
+  padding: 93px 50px;
+}
+.section--payments .hero__content .hero__card h1 {
+  font-size: 63px;
+  margin-bottom: 30px;
+}
+.section--payments .hero__content .hero__card .btn-primary {
+  font-size: 17px;
+  height: 45px;
+  line-height: 1.5;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.section--thank-you .thank-you_text h2 {
+  line-height: 1.25;
+  font-size: 40px;
+  max-width: 920px;
+  margin: 0 auto 8px auto;
+}
+
+.section-cards {
+  display: -webkit-box;
+}
+.section-cards [class*=col-] {
+  margin-bottom: 24px;
+}
+.section-cards .payment__option {
+  padding: 28px 30px 32px 30px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 0 30px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.section-cards .payment__option img {
+  margin-bottom: 32px;
+}
+.section-cards .payment__option p {
+  text-align: justify;
+  font-size: 18px;
+  color: #716E74;
+  line-height: 1.6;
+}
+.section-cards .payment__option a {
+  display: inline-flex;
+  font-size: 19px;
+  font-weight: 500;
+  color: #30827B;
+  text-decoration: underline;
+}
+.section-cards .payment__option a:hover {
+  text-decoration: none;
+  color: #035954;
+}
+
+.section-cards .row:nth-child(2) .payment__option h3 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .section--payments .hero__content::before {
+    height: 100%;
+  }
+  .section--payments .hero__content .hero__card {
+    padding: 75px 50px;
+  }
+  .section--thank-you .thank-you_text h2 {
+    max-width: 770px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .section--payments .hero__content .hero__card h1 {
+    font-size: 34px;
+  }
+  .section--payments .hero__content .hero__card {
+    padding: 127px 50px;
+  }
+  .section--thank-you .thank-you_text h2 {
+    font-size: 26px;
+  }
+  .section-cards .payment__option h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .section--payments .hero__content .hero__card {
+    padding: 50px 46px;
+  }
+  .section-cards .payment__option p,
+  .section-cards .payment__option {
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */
